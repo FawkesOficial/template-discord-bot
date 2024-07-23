@@ -33,7 +33,7 @@ class TemplateBot(commands.Bot):
 
 
 def main():
-    bot = RaidedBot(command_prefix=config.PREFIX, intents=config.INTENTS)
+    bot = TemplateBot(command_prefix=config.PREFIX, intents=config.INTENTS)
     bot.run(config.TOKEN)
 
 
