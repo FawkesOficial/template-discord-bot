@@ -15,4 +15,3 @@ os.makedirs(DATA_DIR, exist_ok=True)
 TOKEN: Optional[str] = os.getenv("TOKEN")
 PREFIX: str = '.'
 INTENTS: discord.Intents = discord.Intents.default()
-INTENTS.members = True
