@@ -4,7 +4,7 @@ from discord.ext import commands
 import config
 
 
-class RaidedBot(commands.Bot):
+class TemplateBot(commands.Bot):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
